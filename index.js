@@ -99,7 +99,7 @@ app.get("/moppy", (req, res) => {
 });
 
 const mercari = async () => {
-    var text = "メルカリを使ってみてね！¥n500円分お得にお買い物できる招待コード【" + process.env.MERCARI_CODE + "】を贈りました🎁¥nアプリをインストールして登録してね"
+    var text = "メルカリを使ってみてね！\n500円分お得にお買い物できる招待コード【" + process.env.MERCARI_CODE + "】を贈りました🎁\nアプリをインストールして登録してね"
     var random = emojis[Math.floor(Math.random() * emojis.length)];
     var hashTag = "#メルカリ #Mercari #お小遣い稼ぎ #節約 #副業"
     console.log(random)
